@@ -16,7 +16,7 @@ class Solution:
         dummy_node = ListNode()
         dummy_node.next = head
 
-        # move each tmp node to the location right after dummy node one by one
+        # move each tmp node to the location right after dummy node one by one.
         while head.next:
             tmp_node = head.next
             head.next = tmp_node.next
