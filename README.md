@@ -7,6 +7,6 @@ array: done
 
 linked list: done
 
-hash map:
+hash map: done
 
 string: done
