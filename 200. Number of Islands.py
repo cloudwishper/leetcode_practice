@@ -4,21 +4,21 @@ class Solution:
         :param gird: the grid that try to count the islands, it's value in
                      each location is either "1" or "0", "1" is land and "0"
                      means water.
-        :return: number of islands in the grid
+        :return: number of islands in the grid.
         """
         m = len(grid)
         n = len(grid[0])
         res = 0
 
         def dfs(gird: List[List[str]], i: int, j: int, m: int, n: int) -> None:
-            # skip this location, if it is out of grid
+            # skip this location, if it is out of grid.
             if i < 0 or j < 0 or i >= m or j >= n:
                 return
             # skip this location, if it is not land
             if grid[i][j] != '1':
                 return 
 
-            # we set it to "*" to prevent dfs revisit and infinite loop
+            # we set it to "*" to prevent dfs revisit and infinite loop.
             gird[i][j] = "*"
             dfs(gird, i - 1, j, m, n)
             dfs(gird, i + 1, j, m, n)
@@ -31,7 +31,7 @@ class Solution:
                 if grid[i][j] == "1":
                     """
                     when find a new island, use dfs iterate whole island,
-                    and set all "1" locations to new value "*"
+                    and set all "1" locations to new value "*".
                     """
                     dfs(grid, i, j, m, n)
                     res += 1
