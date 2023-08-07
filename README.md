@@ -1,6 +1,6 @@
 # leetcode_pratice
 
 
-https://github.com/youngyangyang04/leetcode-master
+I pratice leetcode questions by following: https://github.com/youngyangyang04/leetcode-master
 
 array: done
