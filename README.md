@@ -6,3 +6,7 @@ I practice leetcode questions by following: https://github.com/youngyangyang04/l
 array: done
 
 linked list: done
+
+hash map:
+
+string: done
