@@ -6,8 +6,8 @@
 class Solution:
     def swapPairs(self, head: Optional[ListNode]) -> Optional[ListNode]:
         """
-        :param head: head node of a linked list
-        :return: swap every two adjacent nodes of input linked list and return head
+        :param head: head node of a linked list.
+        :return: swap every two adjacent nodes of input linked list and return head.
         """
         if not head or not head.next:
             return head
