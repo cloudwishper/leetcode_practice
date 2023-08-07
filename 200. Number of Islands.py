@@ -1,5 +1,11 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
+        """
+        :param gird: the grid that try to count the islands, it's value in
+                     each location is either "1" or "0", "1" is land and "0"
+                     means water.
+        :return: number of islands in the grid
+        """
         m = len(grid)
         n = len(grid[0])
         res = 0
