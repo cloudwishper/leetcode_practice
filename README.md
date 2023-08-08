@@ -10,3 +10,5 @@ linked list: done
 hash map: done
 
 string: done
+
+stack, queue, heap: done
