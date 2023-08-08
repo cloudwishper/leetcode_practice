@@ -2,8 +2,7 @@ class Solution:
     def evalRPN(self, tokens: List[str]) -> int:
         """
         :param tokens: an array of strings tokens represents an arithmetic 
-                        expression in a Reverse Polish Notation:
-                        https://en.wikipedia.org/wiki/Reverse_Polish_notation
+                       expression in a Reverse Polish Notation.
         :return: an integer that represents the value of the expression.
         """
 
