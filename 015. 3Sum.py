@@ -2,7 +2,7 @@ class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         """
         :param nums: an integer array.
-        :return: all all the triplets [nums[i], nums[j], nums[k]] such that 
+        :return: all unqiue the triplets [nums[i], nums[j], nums[k]] such that 
                  i != j, i != k, and j != k, and nums[i] + nums[j] + nums[k] == 0.
         """
         res = []
