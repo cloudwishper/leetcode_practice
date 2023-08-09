@@ -12,3 +12,5 @@ hash map: done
 string: done
 
 stack, queue, heap: done
+
+tree: done
