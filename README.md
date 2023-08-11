@@ -15,4 +15,4 @@ stack, queue, heap: done
 
 tree: done
 
-backtrack: 77
+backtrack: 40
